@@ -1,5 +1,5 @@
 /*****************************
-  BASE SETUP
+BASE SETUP
 *****************************/
 
 html {
@@ -12,7 +12,7 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale; /* smoother rendering of fonts */
+  -moz-osx-font-smoothing: grayscale; /* smoother rendering of fonts */
   font-family: 'Poppins', sans-serif;
   color: #444;
   background: linear-gradient(165deg, rgba(255,255,255,0.03), rgba(184,201,229,0.25)), radial-gradient(farthest-corner at 75% 75%, rgba(238,184,189,0.25), rgba(255,255,255,0.25));
@@ -71,5 +71,3 @@ li a {
 .content button:hover {
   cursor: pointer;
 }
-
-/* Jun 09 2018 22:25 */
