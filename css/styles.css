@@ -13,4 +13,63 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale; /* smoother rendering of fonts */
+  font-family: 'Poppins', sans-serif;
+  color: #444;
+  background: linear-gradient(165deg, rgba(255,255,255,0.03), rgba(184,201,229,0.25)), radial-gradient(farthest-corner at 75% 75%, rgba(238,184,189,0.25), rgba(255,255,255,0.25));
+  height: 100vh;
+  padding: 40px;
 }
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+ul {
+  display: inherit;
+  flex-direction: row;
+  flex-basis: 50%;
+  justify-content: space-between;
+}
+li {
+  font-size: 15px;
+}
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+.content {
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+}
+.content div {
+  flex-basis: 50%;
+}
+.content h1, .content p {
+  margin: 50px 0;
+}
+.content h1 {
+  font-size: 45px;
+  line-height: 50px;
+}
+.content p {
+  font-size: 17px;
+  line-height: 30px;
+  margin-right: 85px;
+}
+.content img {
+  width: 600px;
+}
+.content button {
+  background: linear-gradient(to right, rgb(249,149,194), rgb(232,133,173));
+  border: 0;
+  font-family: 'Adamina', serif;
+  font-size: 14px;
+  color: #FFF;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.content button:hover {
+  cursor: pointer;
+}
+
+/* Jun 09 2018 22:25 */
